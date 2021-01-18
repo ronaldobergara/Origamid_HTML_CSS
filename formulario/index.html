@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bicraft</title>
+</head>
+
+<body>
+  <h1>Bikcraft Bicicletas Personalizadas</h1>
+
+  <form action="enviar.php" method="POST" name="form">
+    <div>
+      <label for="nome">Nome:</label>
+      <input id="nome" name="nome" type="text" required />
+    </div>
+
+    <div>
+      <label for="email">E-mail</label>
+      <input id="email" name="email" type="text" required />
+    </div>
+
+    <label for="mensagem">Mensagem</label>
+    <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+
+    <div>
+      <p>Escolha a bicicleta</p>
+      <label for="retro"> <input id="retro" type="checkbox" value="retro">Retro</label>
+      <label for="passeio"> <input id="passeio" type="checkbox" value="passeio">Passeio</label>
+      <label for="esporte"> <input id="esporte" type="checkbox" value="esporte">Esporte</label>
+    </div>
+    <button type="submit">Enviar</button>
+
+  </form>
+  <!-- Formulários são utilizados para envio de dados ao servidor. 
+      Podem ser formulário de contato, de busca, de chat e etc. 
+      
+     FORM ATRIBUTOS
+       - action
+        Define a ação do formulario
+
+       - method
+        Especifica se é get ou post
+        
+       - name
+        Nome único do elemento        
+
+    
+        
+    -->
+
+  <a href="http://www.w3.org/wiki/HTML/Elements/input" target="_blank">Link com referencia a input </a>
+</body>
+
+</html>

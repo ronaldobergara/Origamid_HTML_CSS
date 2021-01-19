@@ -1,0 +1,71 @@
+div {
+  margin: 40px auto;
+  width: 400px;
+  background: #eee;
+  padding: 10px;
+}
+
+p {
+  color: #000;
+  /* font-style: italic;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px; */
+  font: italic bold 14px/20px Helvetica, Arial;
+  text-align: left;
+  text-transform: lowercase;
+  text-indent: 20px;
+  text-decoration: underline;
+  text-shadow: 10px 10px 10px green;
+  /* white-space: nowrap; força o texto quebrar, sair da caixa */
+  /* word-spacing: 20px; define espaçamento entre as palavras */
+  /* letter-spacing: 2px; separa as letras */
+}
+
+ul {
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+/* 
+  color define a cor do texto. Pode ser #335566, #333 ou rgba(0,0,0,0.5)
+  Hexadecimal = 0 1 2 3 4 5 6 7 8 9 A B C D E F
+
+  font-style define o estilo do texto. Pode ser normal, italic, oblique
+  font-weight define o peso do texto. Pode ser normal, bold, bolder, lighter e de 100 a 900
+
+  font-size define o tamanho do texto. Valores em px ou em.
+  line-height define o tamanho da linha do texto. Valores em px ou em
+    - em é um aunidade relativa. 1 em equivale ao tamanho padrão de fonte do dispositivo. 
+      Browsers de computadores geralmente tem padrão de 16px e smartphone 14px.
+
+  font-family define a familia tipografica      
+    - O atributo font pode ser utilizado para definir quase todos os valores da font em
+      apenas um atributo. Deve ser utilizada a seguinte ordem
+      font: font-style font-weight font-size/line-height font-family
+  
+
+  text-align, text-transform e text-indent
+    text-align alinha o texto. Valores: left, right, center
+    text-transform transforma o texto. Valores: uppercase, lowercase, capitalize
+    text-indent indenta o texto. Valores em px ou em
+
+  text-decoration e text-shadow
+  
+    text-decoration decora o texto. Valores: underline, overline, line-through
+    text-shadow coloca sombra no texto. Valores horizontal vertical blur cor
+      é possivel utilizar valores negativos no horizontal e vertical.
+
+  white-space, word-spacing e letter-spacing
+    white-space define se o texto quebra ou não. Valores: nowrap, normal
+    word-spacing define o espaçamento entre palavras. Pode ser em px ou em
+    letter-spacing define o tracking. Pode ser em px ou em      
+
+  List
+    
+    list-style-type define o estilo do marcador da lista. Valores: circle, square, disc
+    list-style-position define a posição do marcador. Valores: inside, outside
+    list-style-image substitui o marcador por uma imagem. Valor: url d imagem
+    list-style: none remove os marcadores
+
+*/

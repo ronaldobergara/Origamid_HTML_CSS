@@ -1,0 +1,70 @@
+* {
+  text-transform: uppercase;
+  color: orange;
+}
+/* * Asterisco seleciona todos os elementos */
+p {
+  color: #222;
+  font-size: 16px;
+}
+
+div {
+  height: 200px;
+  background-color: #bbb;
+  width: 200px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+div a,
+div p {
+  color: green;
+  font-size: 16px;
+}
+/* Aplica estilo a todos os a,p dentro da div */
+
+.btn-comprar {
+  color: black;
+}
+/* chamando class com ponto . */
+
+#principal {
+  width: 100px;
+}
+/* chamando id com # cerquilha */
+
+/* 
+  Class e ID
+
+  O nome adicionado ao id só deve ser utilizado uma unica vez no HTML
+
+  O atributo class pode ser repetido e é muito utilizado para replicarmos estilos a diversas tag's
+
+*/
+
+a:hover {
+  font-size: 20px;
+  color: red;
+}
+
+/* 
+  PSEUDO-CLASS
+
+  Geralmente esta relacionada ao estado especial de um elemento. Como a tag <a>
+  por exemplo.
+
+  .link-interno:hover{
+    color: Blue;
+    font-size: 20px;
+    text-decoration: underline
+  }
+  Quando passar a setinha do mouse por cima ativa :hover.
+
+
+*/
+
+.link {
+  background-color: lightblue;
+  width: 350px;
+  height: 10px;
+}

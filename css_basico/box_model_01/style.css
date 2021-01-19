@@ -1,0 +1,52 @@
+.container {
+  width: 800px;
+  height: 500px;
+  margin: 0 auto;
+  background: #ddd;
+}
+
+.box-1 {
+  width: 200px;
+  height: 80;
+  background: #aaa;
+  padding: 20px;
+  border: 1px solid #000; 
+  /* border-style: dashed;   no lugar do solid pode ser declarado separado  */
+  margin: 20px; /* Aqui a ordem é diferente top, bottom, left e right */
+}
+
+
+/* 
+  Width e Height
+
+  width - define a largura do box. Valores: px, % e auto
+
+  height - define a altura do box. Valores: px, % e auto
+
+  PADDING
+
+    padding - define a distancia entre o conteudo e a borda do box. Valores: px, % e em.
+              Podem ser declaradas: padding-top, padding-bottom, padding-left e padding-right
+
+              Ex.: padding: 10px 20px 30px 40px;  começa pelo topo ate o left, sentido horario
+                   padding: top right bottom left;
+
+                   padding: 10px 20px;
+                   padding: top-bottom right-left;
+
+
+  BORDER
+
+    border define a borda do box. Na seguinte ordem:
+      border-width border-style border-color
+
+    Podem ser declaradas: border-top, border-bottom, border-left e border-right      
+
+  MARGIN
+  
+    margin define a margem entre um elemento e outro. Valores: px, % e em.
+    Podem ser declaradas: margin-top, margin-bottom, margin-left e margin-right
+
+    margin: 0 auto; Cebtraliza os elementos horizontalmente
+
+*/

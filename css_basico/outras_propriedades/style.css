@@ -1,0 +1,50 @@
+body{
+  background: #333;
+  background-image: url("esporte-1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 5000px;
+}
+
+
+div {
+  width: 200px;
+  height: 400px;
+  margin: 0 auto;
+  background-color: #ccc;
+  background: url("esporte-4.jpeg") no-repeat center;
+  background-size: cover;
+  /* box-shadow: 10px 10px 5px #333;  */
+  box-shadow: inset 0px 0px 10px #000, 10px 10px 10px green; /* é possivel criar 2 sombras */ 
+  /* visibility: hidden;  Escode o elemento */ 
+  /* display: none;  esconde totalmente */
+}
+
+
+/* 
+  BACKGROUND
+
+    background-color define a cor de fundo. Valores: rgba, hexadecimal
+
+    background-image define a imagem de fundo. Valor: url("") da imagem
+
+    background-repeat define se a imagem repete ou não. Valores: repeat, repeat-x, no-repeat
+
+    background-attatchment define se a imagem é fixa. Valores: fixed, scroll
+
+    background-position posiciona a imagem. Valores: center center, left top, right bottom
+    
+    background-size define o tamanho da imagem. Valores: cover, px, %
+
+
+  BOX-SHADOW E VISIBILITY
+
+    box-shadow adiciona uma sombra ao box. Valores: Horizontal vertical blur cor
+      é possivel colocar inset para criar uma sombra interna.
+
+    visibility define se o elemento é visivel ou não. Valores: hidden, visible    
+
+
+*/

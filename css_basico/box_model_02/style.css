@@ -1,0 +1,89 @@
+header {
+  width: 800px;
+  height: 60px;
+  padding: 20px 0;
+  background: #6b35b3;
+  margin-bottom: 20px;
+}
+
+h1,
+p {
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+footer {
+  width: 800px;
+  height: 60px;
+  padding: 20px 0;
+  background: #ff3333;
+  clear: both;
+}
+
+article {
+  width: 580px;
+  height: 300px;
+  background: #222;
+  float: left;
+}
+
+aside {
+  width: 200px;
+  height: 300px;
+  background: #ccc;
+  float: left;
+  margin-left: 20px;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto; /* Para fazer o alinhamento */
+}
+
+.conteudo {
+  width: 800px;
+  overflow: auto;
+  margin-bottom: 20px;
+}
+
+li {
+  width: 60px;
+  height: 20px;
+  background: darkblue;
+  display: inline-block;
+}
+
+/* 
+  FLOAT e CLEAR
+
+  float faz com que um elemento de bloco flutue ao lado de outro. Valores: left, right, none
+
+  clear impede que elementos flutuem ao seu lado. Valores: both, left, right, none
+
+  OVERFLOW
+
+    overflow especifica o que acontece quando o conteudo for maior que a caixa dele.
+      Valores: visible, hidden, auto, scroll
+      Dica: usar overflow: auto na caixa que envolve elementos flutuantes
+
+  POSITION
+
+    position define o posicionamento do elemento. Valores: static, absolute, relative, fixed
+
+    top, left e right posicionam elementos com position: absolute, relative ou fixed
+
+    z-index define qual elemento vem por cima ou por baixo. O maior valor vem por cima
+
+  DISPLAY
+    
+    display - define o comportamento do elemento. Elementos como span, em e stromg possuem por padrão o   display inline. Elementos inline não quebram linhas. div, article, p, h1, li e outros possuem por padrão o display block, então sempre que adicionados quebram uma linha.
+
+    É possivel declarar widht e height para elementos de bloco, mas não para
+    elemento inline. Existe também o inline-block, que por padrão não quebra a linha,
+    mas permite declararmos widht e height.
+
+*/
